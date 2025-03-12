@@ -182,21 +182,38 @@ meta_model.fit(stacked_train, train["y_transformed"], epochs=30, batch_size=16)
 ## **5. Inference**
 
 ### **5.1 Loading Preprocessors and Models**
-The preprocessors (imputers) and trained models were loaded for inference.
+The preprocessors (imputers) and trained models were loaded and applied for inference.
 
 ```python
 num_imputer = joblib.load("num_imputer.pkl")
 cat_imputer = joblib.load("cat_imputer.pkl")
+
+test[num_cols] = num_imputer.transform(test[num_cols])
+test[cat_cols] = cat_imputer.transform(test[cat_cols])
+
 xgb_models = joblib.load("xgboost_models.pkl")
 lgb_models = joblib.load("lightgbm_models.pkl")
 cat_models = joblib.load("catboost_models.pkl")
-meta_model = tf.keras.models.load_model("meta_model.h5")
+
+xgb_preds, lgb_preds, cat_preds = np.zeros(len(test)), np.zeros(len(test)), np.zeros(len(test))
+
+for model in xgb_models:
+    xgb_preds += model.predict(test[FEATURES]) / len(xgb_models)
+
+for model in lgb_models:
+    lgb_preds += model.predict(test[FEATURES]) / len(lgb_models)
+
+for model in cat_models:
+    cat_preds += model.predict(test[FEATURES]) / len(cat_models)
 ```
 
 ### **5.2 Making Predictions**
 Predictions were generated using the base models and combined using the meta-model.
 
 ```python
+
+meta_model = tf.keras.models.load_model("meta_model.h5")
+
 stacked_test = np.vstack((xgb_preds, lgb_preds, cat_preds)).T
 final_preds = meta_model.predict(stacked_test).flatten()
 ```
