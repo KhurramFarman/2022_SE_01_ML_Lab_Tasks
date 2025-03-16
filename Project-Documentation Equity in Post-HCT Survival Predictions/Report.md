@@ -236,9 +236,7 @@ submission.to_csv("submission.csv", index=False)
 
 ---
 
-## **7. Conclusion**
-This project demonstrated a comprehensive approach to predicting post-HCT survival outcomes while ensuring equity across demographic groups. By combining multiple models and using advanced techniques like the Nelson-Aalen estimator and model stacking, the solution achieved robust and equitable predictions. The code and methodology can be adapted to similar survival prediction tasks in healthcare and other domains.
+## **7. Conclusion**  
+This project showcased a comprehensive approach to predicting post-HCT survival outcomes while ensuring fairness across demographic groups. By leveraging multiple models and advanced techniques such as the Nelson-Aalen estimator and model stacking, the solution achieved robust and equitable predictions.  
 
---- 
-
-This document provides a clear and detailed explanation of the project, making it easy for readers to understand the steps, tools, and techniques used.
+Throughout the competition, **I made a total of 45 submissions**, continuously refining the model for better accuracy. After the competition, my best result secured **1729th position** with a **final score of 0.68872**.  
