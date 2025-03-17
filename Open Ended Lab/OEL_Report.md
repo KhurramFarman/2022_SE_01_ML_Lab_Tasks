@@ -4,8 +4,8 @@
 
 ![University Logo](logo.png)
 
-| **Submitted to:**   | Engr. Ahmed Khawaja |
-|---------------------|--------------------|
+| **Submitted to:**   | Engr. Awais Rathore |
+|---------------------|-------------------- |
 | **Course Title:**   | Machine Learning |
 | **Course Code:**    | SE-3105 |
 | **Session:**        | 2022-26 |
