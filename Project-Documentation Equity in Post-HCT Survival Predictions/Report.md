@@ -1,10 +1,12 @@
+<div align="center">
+
 # The University of Azad Jammu and Kashmir, Muzaffarabad
 
 ![University Logo](logo.png)
 
-| **Submitted to:**   | Engr. Sidra Rafique |
+| **Submitted to:**   | Engr. Ahmed Khawaja |
 |---------------------|--------------------|
-| **Course Title:**   | Software Construction and Development |
+| **Course Title:**   | Machine Learning |
 | **Course Code:**    | SE-3105 |
 | **Session:**        | 2022-26 |
 | **Semester:**       | 5th |
@@ -17,6 +19,7 @@
 ### Bachelors of Science in Software Engineering (2022-26)  
 **Department of Software Engineering**
 
+</div>
 
 # **Documentation: Equity in Post-HCT Survival Predictions**
 
