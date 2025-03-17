@@ -1,3 +1,23 @@
+<div align="center">
+
+# The University of Azad Jammu and Kashmir, Muzaffarabad
+
+![University Logo](logo.png)
+
+| **Submitted to:**   | Engr. Ahmed Khawaja |
+|---------------------|--------------------|
+| **Course Title:**   | Machine Learning |
+| **Course Code:**    | SE-3105 |
+| **Session:**        | 2022-26 |
+| **Semester:**       | 5th |
+| **Group No:**       | 9 |
+| **Submitted from:** | 2022-SE-01  |
+
+### Bachelors of Science in Software Engineering (2022-26)  
+**Department of Software Engineering**
+
+</div>
+
 # **Report: Classification of MNIST Handwritten Digits Using Machine Learning**
 
 ---
