@@ -1,3 +1,29 @@
+The University of Azad Jammu and Kashmir, Muzaffarabad
+
+<center>
+<img src="logo.png" alt="University Logo" width="150">
+</center>
+
+<br><br>
+
+|**Submitted to:**   | Engr. Ahmed Khawaja |
+|---------------------|--------------------|
+| **Course Title:**   | Machine Learning |
+| **Course Code:**    | SE-3105 |
+| **Session:**        | 2022-26 |
+| **Semester:**       | 5th |
+| **Group No:**       | 9 |
+| **Submitted from:** | 2022-SE-01  |
+|                     | 2022-SE-12  |
+|                     | 2022-SE-17  |
+|                     | 2022-SE-35  |
+
+<br><br>
+
+### Bachelors of Science in Software Engineering (2022-26)  
+Department of Software Engineering
+
+
 # **Documentation: Equity in Post-HCT Survival Predictions**
 
 This document provides a detailed explanation of the approach, methodology, and implementation of the solution for the **CIBMTR - Equity in Post-HCT Survival Predictions** competition. The goal of the project was to predict post-hematopoietic cell transplantation (HCT) survival outcomes while ensuring equity across different demographic groups. Below, we break down the process into clear sections to help readers understand what was done, how it was done, and the tools and techniques used.
