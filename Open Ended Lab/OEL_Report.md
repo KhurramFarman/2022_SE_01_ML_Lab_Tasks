@@ -107,6 +107,7 @@ Confusion matrices were also plotted to visualize the misclassifications.
 
 ### **3.1 Model Performance Comparison**
 The table below summarizes the performance of the models:
+<div align="center">
 
 | Model                  | Accuracy | Precision | Recall | F1-Score |
 |------------------------|----------|-----------|--------|----------|
@@ -115,12 +116,19 @@ The table below summarizes the performance of the models:
 | K-Nearest Neighbors    | 97.05%   | 0.9707    | 0.9705 | 0.9705   |
 | Neural Network (MLP)   | 98.13%   | 0.9814    | 0.9813 | 0.9813   |
 
+</div>
+
 ### **3.2 Confusion Matrix Insights**
 The confusion matrices revealed common misclassifications, such as:
+
+<div align="center">
+  
 - **7** predicted as **1**
 - **4** predicted as **9**
 - **9** predicted as **0**
 - **7** predicted as **4**
+  
+</div>
 
 These misclassifications are likely due to the similarity in shapes and strokes of certain digits.
 
